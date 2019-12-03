@@ -3,7 +3,7 @@
 
 const mongoose = require('mongoose');
 var app = require("./app");
-var port = process.env.PORT || 8080;
+var port = 3800;
 mongoose.Promise = global.Promise;
 
 // Connect MongoDB at default port 27017.
