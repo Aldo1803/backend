@@ -1,0 +1,26 @@
+{
+  "name": "proyectos-www",
+  "version": "1.0.0",
+  "description": "Wea tecno",
+  "main": "index.js",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.1.1",
+    "express": "^4.17.1",
+    "jquery": "^3.3.1",
+    "jwt-simple": "^0.5.6",
+    "moment": "^2.24.0",
+    "mongoose": "^5.7.11",
+    "mongoose-pagination": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Aldo Parada",
+  "license": "MIT"
+}
